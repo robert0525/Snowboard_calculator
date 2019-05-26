@@ -24,3 +24,14 @@ body {
     position: absolute;
     left: 42%;
 }
+h1{
+    font-size: 46px;
+    margin: 26px;
+    padding: 33px;
+}
+
+p{
+    font-size: 20px;
+    margin: 33px;
+    padding: 40px;
+}
