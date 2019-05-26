@@ -35,3 +35,11 @@ p{
     margin: 33px;
     padding: 40px;
 }
+
+#myList {
+    font-size: 18px;
+}
+
+.btn {
+    font-size: 30px;
+}
