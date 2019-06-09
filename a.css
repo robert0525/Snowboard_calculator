@@ -1,40 +1,60 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Dancing+Script|Syncopate');
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
 
+* {
+    box-sizing: border-box;
+    
+}
 body {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    line-height: 1.6;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: Cinzel;
+  
+    font-family: 'Cinzel', Arial, Helvetica, sans-serif;
     background:url('img/lake-tahoe.jpg')  no-repeat;
     background-size:100%;
+    padding: 15px;
+
 }
 
-.burton {
-    text-align: center;
+body,
+input,
+.container
+.btn {
+    display: inline-block;
 }
 
-.background {
-    position: absolute;
-    left: 42%;
-}
-h1{
+h2{
+    
     font-size: 46px;
     margin: 26px;
     padding: 33px;
 }
 
-p{
-    font-size: 20px;
-    margin: 33px;
-    padding: 40px;
+#myList,
+.btn,
+h2,
+label {
+    text-align: center;
+}
+
+
+
+
+#myList,
+.btn {
+    font-size: 18px;
+    height: 33px;
+    border-radius: 15px;
+    margin: 26px;
 }
 
 #myList {
-    font-size: 18px;
+    width:330px;
 }
+/* =================================
+  Media Queries
+==================================== */
 
-.btn {
-    font-size: 30px;
+
+@media (min-width: 319px) {
+    h1 {
+        font-size: 13px;
+    }
 }

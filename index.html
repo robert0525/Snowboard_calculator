@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="a.css">
+    <link rel="stylesheet" href="normalize.css">
     
-    <title>Amsterdam</title>
+    <title>Snowboard Size</title>
     
 </head>
 <body>
-    <section>
-        <div class="burton">
-               <h2>This web-site will calculate the range of snowboard size base of your height.</h2>
-            <div class="background">
+    <header>
+       <h2>This web-site will calculate the range of snowboard size base of your height.</h2>
+    </header>
+
+            <div class="container">
                     <label>How tall are you ? </label>
                     <select id = "myList">
                       <option value = "109cm">109cm or 3’7″(ft/in)</option>
@@ -33,10 +35,10 @@
                       <option value = "191cm">191cm or 6’3″(ft/in)</option>
                       <option value = "193cm">193cm or 6’4″(ft/in)</option>
                     </select>
-              <input type="button" value="submit" class="btn" onclick="snowboardSize()">
+              <input type="button" value="Submit" class="btn" onclick="snowboardSize()">
             </div>
         </div>
-    </section>
-    <script src="app.js"></script>
+    
+    <script src="es6.js"></script>
 </body>
 </html> 
