@@ -39,7 +39,7 @@ function snowboardSize()  {
         document.write("Your snowboard size is between 152cm and 155cm" );
 
     } else if (value === "175cm" ) {
-        document.write("Your snowboard size is between 154cm and 159cm" );
+        document.write("Your snowboard size is between 153cm and 157cm" );
 
     } else if (value === "178cm" ) {
         document.write("Your snowboard size is between 154cm and 159cm" );
