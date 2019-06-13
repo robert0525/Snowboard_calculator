@@ -3,9 +3,11 @@ var value = document.getElementById("myList").value;
 /* using switch statement inside the function */
 function snowboardSize()  {
     var value = document.getElementById("myList").value; 
+    var snowboarddiv = document.getElementById("snowboard");
     switch(value) {
         case "109cm":
-            document.write("Your snowboard size is between 90cm and 105cm");
+            // document.write("Your snowboard size is between 90cm and 105cm");
+            snowboarddiv.innerHTML = 'Your snowboard size is between 90cm and 105cm';
           break;
         case "124cm":
             document.write("Your snowboard size is between 110cm and 120cm" );
